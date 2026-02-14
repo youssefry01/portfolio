@@ -21,7 +21,7 @@ const Sidebar = ({ isSidebarVisible }) => {
   return (
     <>
     {isSidebarVisible && (
-      <div className="fixed bottom-0 right-0 z-50 w-64 h-screen p-4 overflow-y-auto overflow-x-clip  bg-white dark:bg-gray-800" tabIndex="-1" aria-labelledby="drawer-navigation-label">
+      <div className="fixed bottom-0 right-0 z-50 w-1/2 h-screen p-4 overflow-y-auto overflow-x-clip  bg-white dark:bg-gray-800" tabIndex="-1" aria-labelledby="drawer-navigation-label">
         <ul className='flex flex-col justify-center items-center text-black font-normal'>
             <li className={`${titleStyle} ${location.hash === '' ? activeLinkStyle : ''}`} onClick={handleClick}>HOME</li>
             <li className={titleStyle} ><a href='#about' className={`${titleStyle} ${location.hash === '#about' ? activeLinkStyle : ''}`}>ABOUT</a> </li>

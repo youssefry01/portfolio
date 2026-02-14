@@ -7,7 +7,7 @@ import Contact from '../components/Home/Contact.jsx';
 const Home = () => {
 
   return (
-    <main className='flex flex-col bg-[#f7f7f8] grow mt-20 dark:bg-[#0e0e10] z-50 font-family-poppins'>
+    <main className='flex flex-col bg-[#f7f7f8] grow w-full mt-20 dark:bg-[#0e0e10] z-50 font-family-poppins'>
       <HomeSection />
       <About />
       <Projects />

@@ -66,8 +66,8 @@ const ContactForm = () => {
 
                 <div className="w-full mt-6">
                     <label className="block mb-2 text-sm text-gray-600">Message</label>
-                    <textarea name="message" placeholder="Message" value={formData.message} onChange={handleChange} required
-                    className="block w-full h-32 px-5 py-3 mt-2 text-black  placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 focus:border-gray-400 focus:ring-black focus:outline-none focus:ring focus:ring-opacity-40"></textarea>
+                    <textarea name="message" placeholder="Message" value={formData.message} onChange={handleChange} required 
+                    className="resize-none block w-full h-32 px-5 py-3 mt-2 text-black  placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 focus:border-gray-400 focus:ring-black focus:outline-none focus:ring focus:ring-opacity-40"></textarea>
                 </div>
 
                 <button type="submit" disabled={loading} className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-black rounded-md hover:bg-neutral-800 focus:outline-none focus:ring focus:ring-gray-400 focus:ring-opacity-50 cursor-pointer">
