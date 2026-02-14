@@ -1,0 +1,29 @@
+
+.swiper-button-next,
+.swiper-button-prev {
+    color : white
+}
+
+.swiper-pagination-bullet {
+    background-color: white;
+}
+
+/* .swiper-button-next::after, .swiper-button-prev::after {
+
+    content: "";
+}
+
+.swiper-button-prev {
+    background-image: url(../assets/left.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    }
+    
+.swiper-button-next {
+    background-image: url(../assets/right.png) !important;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+} */
