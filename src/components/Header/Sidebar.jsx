@@ -22,11 +22,11 @@ const Sidebar = ({ isSidebarVisible, setIsSidebarVisible }) => {
     <>
     {isSidebarVisible && (
       <div className="flex flex-col fixed bottom-0 right-0 z-50 w-1/2 h-screen p-4 overflow-y-auto overflow-x-clip bg-white dark:bg-gray-800" tabIndex="-1" aria-labelledby="drawer-navigation-label">
-        <ul className="flex flex-col mt-6 text-center" onClick={() => setIsSidebarVisible(false)}>
+        <ul className="flex flex-col mt-6 text-center pt-10" onClick={() => setIsSidebarVisible(false)}>
           <li className=" text-black text-2xl cursor-pointer focus:text-neutral-300" onClick={() => setIsSidebarVisible(false)}>✕</li>
         </ul>
         
-        <ul className='flex flex-col justify-start items-center pt-14 text-black font-normal'>
+        <ul className='flex flex-col justify-start items-center pt-10 text-black font-normal'>
             <li className={`${titleStyle} ${location.hash === '' ? activeLinkStyle : ''}`} onClick={handleClick}>HOME</li>
             <li className={titleStyle} ><a href='#about' className={`${titleStyle} ${location.hash === '#about' ? activeLinkStyle : ''}`}>ABOUT</a> </li>
             <li className={titleStyle} ><a href='#projects' className={`${titleStyle} ${location.hash === '#projects' ? activeLinkStyle : ''}`}>PROJECTS</a> </li>

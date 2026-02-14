@@ -10,7 +10,7 @@ const HomeSection = () => {
   const iconStyle = 'size-8 ml-4 lg:size-12 lg:ml-10 hover:opacity-70';
 
   return (
-    <section id='home' className='flex flex-col lg:flex-row justify-center items-center w-full bg-black lg:px-auto'>
+    <section id='home' className='flex flex-col lg:flex-row justify-center items-center w-full px-10 bg-black lg:px-auto'>
       <div className='flex flex-col h-full mt-24 lg:mt-48'>
 
         <div className='flex lg:flex-row justify-center'>
