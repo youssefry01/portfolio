@@ -36,7 +36,7 @@ const Header = () => {
     <>
       <header ref={sidebarRef} className='flex fixed top-0 w-full p-6 h-20 bg-[#fafafa] z-9999 border-opacity-10 lg:justify-center items-center'>
         
-        <Sidebar isSidebarVisible={isSidebarVisible} />
+        <Sidebar isSidebarVisible={isSidebarVisible} setIsSidebarVisible={setIsSidebarVisible} />
 
         <img className="cursor-pointer w-10 h-10 lg:w-12 lg:h-12 mr-20" src={logo} alt='logo' onClick={scrollToTop}/>
 
